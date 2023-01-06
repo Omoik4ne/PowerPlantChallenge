@@ -16,12 +16,3 @@ public class PowerPlant
     // the minimmum amount of power the powerplant can generate.
 
 }
-
-// public enum PPType
-// {
-//     Gasfired,
-
-//     Turbojet,
-
-//     Windturbine
-// }
