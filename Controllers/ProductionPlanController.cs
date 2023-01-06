@@ -27,8 +27,7 @@ public ActionResult<List<Payload>> GetAll() =>
 
 [HttpPost]
     public IActionResult Create(Payload payload)
-    {
-        //give object with 
+    { 
         ProductionPlanService.Add(payload);
         return CreatedAtAction(nameof(Create), new { id = payload.Id }, payload);
 

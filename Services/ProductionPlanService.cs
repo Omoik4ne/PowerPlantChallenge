@@ -13,9 +13,7 @@ public class ProductionPlanService
 
     static ProductionPlanService()
     {
-        //The response should be a json as in example_response.json, specifying for each powerplant
-        // how much power each powerplant should deliver. The power produced by each powerplant has to be a multiple of 0.1 Mw 
-        //and the sum of the power produced by all the powerplants together should equal the load.
+        
     }
     public static List<Payload> GetAll() => Payloads;
 
@@ -23,30 +21,6 @@ public class ProductionPlanService
     {
         Payloads.Add(payload);
     }
-
-    //1) la load est un type de power. C'est la demande continue du power qui peut se prévoir.
-    //2) A n'importe quel moment, la centrale doit générer suffisement de power pour arriver au meme stade que le load.
-    //3) Le cout de production du power est différent pour chaque centrale et depend de plusieurs facteurs :
-    //4) - turboreacteur qui fonctionne au kérosene a un cout de production + elevé que la centrale à gaz car :
-    // *gaz est - cher que kerozene.
-    // * rendement thermique d'une centrale a gaz est environ 50% (2 unité de gaz produise 1 unité electricité)
-    //5) turboreacteur a un rendement thermique de 30% (environ 3 unité de kerozene pour 1 unité de electricité)
-    //6) Coup de production des moulins à vent est nul
-    //7) Tenir compte du Pmax
-    //8) les centrales à gaz ont une charge minimale
-
-
-
-
-    //private List<PayloadResponse> GetPowerPlantsActived(Payload powerSupplyDemand){};
-
-    //private static int GetPowerPlantMaxPower(Payload powerSupplyDemand, PayloadResponse? powerPlantToActivate){};
-
-    //private List<PayloadResponse> GetPowerUnitCosts(Payload powerSupplyDemand){};
-
-    //Calculate Cost
-
-
 
     // public void CalculateMeritOrderToActivatePowerPlant(){
         
@@ -93,15 +67,6 @@ public class ProductionPlanService
     // }
 
 
-
-
-
-
-
-
-}
-
-
     // EnergyProd p1 = new EnergyProd();
     // EnergyNeed l1 = new EnergyNeed();
 
@@ -129,4 +94,13 @@ public class ProductionPlanService
     //         return false;
     //     }
     // }
+
+
+
+
+
+
+
+}
+
 
