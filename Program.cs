@@ -1,3 +1,6 @@
+using ProductionPlan.Services;
+using System.Text.Json.Serialization;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -23,3 +26,12 @@ app.UseAuthorization();
 app.MapControllers();
 
 app.Run();
+
+// void ConfigureServices(IServiceCollection services)
+// {
+//     services.AddControllers().AddJsonOptions(opt =>
+//     {
+//         opt.JsonSerializerOptions.Converters.Add(new JsonStringEnumConverter());
+//     });
+
+// }

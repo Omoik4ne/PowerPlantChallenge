@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\CamilledeSancy\\New folder\\ProductionPlan.csproj": {}
+    "C:\\Users\\CamilledeSancy\\Exemple\\Prod_Plan\\ProductionPlan.csproj": {}
   },
   "projects": {
-    "C:\\Users\\CamilledeSancy\\New folder\\ProductionPlan.csproj": {
+    "C:\\Users\\CamilledeSancy\\Exemple\\Prod_Plan\\ProductionPlan.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\CamilledeSancy\\New folder\\ProductionPlan.csproj",
+        "projectUniqueName": "C:\\Users\\CamilledeSancy\\Exemple\\Prod_Plan\\ProductionPlan.csproj",
         "projectName": "ProductionPlan",
-        "projectPath": "C:\\Users\\CamilledeSancy\\New folder\\ProductionPlan.csproj",
+        "projectPath": "C:\\Users\\CamilledeSancy\\Exemple\\Prod_Plan\\ProductionPlan.csproj",
         "packagesPath": "C:\\Users\\CamilledeSancy\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\CamilledeSancy\\New folder\\obj\\",
+        "outputPath": "C:\\Users\\CamilledeSancy\\Exemple\\Prod_Plan\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\CamilledeSancy\\AppData\\Roaming\\NuGet\\NuGet.Config"
