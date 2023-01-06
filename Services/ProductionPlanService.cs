@@ -13,7 +13,7 @@ public class ProductionPlanService
 
     static ProductionPlanService()
     {
-        
+
     }
     public static List<Payload> GetAll() => Payloads;
 
@@ -67,20 +67,12 @@ public class ProductionPlanService
     // }
 
 
-    // EnergyProd p1 = new EnergyProd();
-    // EnergyNeed l1 = new EnergyNeed();
-
-    // public static void Add(PowerPlant p)
+    // public void CalculateSumPower()
     // {
-    //     PowerPlants.Add(p);
-    // }
-    // public bool FinalMethod()
-    // {
-    //    var result = CompareMatchingEnergy(this.p1, this.l1);
-    //    return result;
+    //    
     // }
 
-    // public static bool CompareMatchingEnergy(EnergyProd p, EnergyNeed l)
+    // public static bool CompareMatchingEnergy(power, load)
     // {
     //     int power = p.Power;
     //     int load = l.Load;
